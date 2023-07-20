@@ -1,18 +1,13 @@
-let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом";
-const lessThan25Answer = "Все таки нет правил без исключения";
-const moreThan25Answer = "У меня 100 пудов все получится";
-const equal25Answer = "50 на 50";
-
-
+let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
 
 switch (true) {
-  case (rule.length === 25):
-     console.log(equal25Answer);
+  case (rule.length < 25):
+    console.log('Все таки нет правил без исключения');
     break;
   case (rule.length > 25):
-    console.log(lessThan25Answer);
+    console.log('У меня 100 пудов все получится');
     break;
-  case (rule.length < 25):  
-    console.log(moreThan25Answer);
+  default:
+    console.log('50 на 50');
     break;
 }
