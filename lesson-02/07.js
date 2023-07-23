@@ -9,6 +9,6 @@ let passportMarried = {
 
 console.log(passportMarried);
 
-let newPassportMarried = Object.assign(passportMarried, {married: true});
+Object.assign(passportMarried, {married: true});
 
-console.log(newPassportMarried);
+console.log(passportMarried);
