@@ -9,11 +9,6 @@ let passportMarried = {
 
 console.log(passportMarried);
 
-let newPerson = {
-  name: passportMarried.name,
-  surname: passportMarried.surname,
-  married: true,
-  address: passportMarried.address,
-};
+let newPassportMarried = Object.assign(passportMarried, {married: true});
 
-console.log(newPerson);
+console.log(newPassportMarried);
