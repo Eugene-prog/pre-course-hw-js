@@ -7,9 +7,13 @@ let passportMarried = {
     }
 };
 
-if (console.log(passportMarried)){
-  passportMarried.married = true;
-}
-
-
 console.log(passportMarried);
+
+let newPerson = {
+  name: passportMarried.name,
+  surname: passportMarried.surname,
+  married: true,
+  address: passportMarried.address,
+};
+
+console.log(newPerson);
