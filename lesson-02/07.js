@@ -1,14 +1,13 @@
 let passportMarried = {
     name: "Petr",
     surname: "Petrov",
-    married: true,
     address: {
         country: "USA",
         city: "Bobryisk"
     }
 };
 
-const passportNotMarried = {...passportMarried, name: "Ivan", surname: "Ivanov", married: false};
+const passportNotMarried = {...passportMarried, married: true};
 
 console.log(passportMarried);
 
