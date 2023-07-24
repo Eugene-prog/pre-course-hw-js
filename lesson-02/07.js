@@ -1,14 +1,15 @@
 let passportMarried = {
     name: "Petr",
     surname: "Petrov",
+    married: true,
     address: {
         country: "USA",
         city: "Bobryisk"
     }
 };
 
-console.log(passportMarried);
-
-Object.assign(passportMarried, {married: true});
+const passportNotMarried = {...passportMarried, name: "Ivan", surname: "Ivanov", married: false};
 
 console.log(passportMarried);
+
+console.log(passportNotMarried);
