@@ -65,3 +65,5 @@ const users = [
         address: '753 Cherry St'
     }
 ];
+
+console.log(users.filter(user=>(user.id % 2 === 0)));
