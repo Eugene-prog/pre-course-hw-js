@@ -66,4 +66,7 @@ const users = [
     }
 ];
 
-users.filter(user => user.id % 2 === 0).map(user => console.log(user));
+const filtered = users.filter(user => user.id % 2 === 0)
+
+console.log(filtered);
+
