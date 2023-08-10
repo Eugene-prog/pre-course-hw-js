@@ -2,7 +2,7 @@
 Дан массив users2
 К массиву users2 добавь новый объект​
 */
-const users2 = [
+let users2 = [
     {
         id: 1,
         user: 'John',
@@ -30,6 +30,6 @@ const newObj = {
     address: 'Unknown'
 }
 
-users2 = [...users2,newObj];
+users2 = [...users2, newObj];
 
 console.log(users2);
