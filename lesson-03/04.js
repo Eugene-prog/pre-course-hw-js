@@ -66,4 +66,8 @@ const users = [
     }
 ];
 
-const filtered = users.filter(user => user.id % 2 === 0).forEach(user => console.log(user));
+users.forEach(user => {
+  if (user.id % 2 === 0)  {
+    console.log(user)
+  }
+})
