@@ -30,3 +30,7 @@ const users3 = [
         address: '321 Hickory St'
     },
 ];
+
+users3.map(user => user.isMarried = true);
+
+console.log(users3);
