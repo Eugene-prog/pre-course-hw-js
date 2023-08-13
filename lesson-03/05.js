@@ -30,6 +30,6 @@ const newObj = {
     address: 'Unknown'
 }
 
-users2 = [...users2, newObj];
+users2.push(newObj);
 
 console.log(users2);
